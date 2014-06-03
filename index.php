@@ -2,7 +2,7 @@
 require 'gallery.php';
 
 $gallery = new Gallery();
-$gallery->setPath('img/crown-suites');
+$gallery->setPath('img/gallery-folder');
 $images = $gallery->getImages(array('jpg'));
 ?>
 
